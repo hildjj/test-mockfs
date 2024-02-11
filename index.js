@@ -10,7 +10,7 @@ const posix_cwd = cwd.split(path.sep).join(path.posix.sep);
 console.log(cwd, posix_cwd);
 
 mockFs({
-  [`${posix_cwd}/node_modules`]: mockFs.load(path.join(cwd, node_modules)),
+  [`${posix_cwd}/node_modules`]: mockFs.load(path.join(cwd, 'node_modules')),
 }, {
   createCwd: false,
   createTmp: false,
