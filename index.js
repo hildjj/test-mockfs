@@ -2,6 +2,8 @@
 
 const mockFs = require('mock-fs');
 const fs = require('fs');
-mockFs();
+mockFs({
+  '/b': 'foo',
+});
 console.log(fs.readdirSync('/'))
 mockFs.restore();
