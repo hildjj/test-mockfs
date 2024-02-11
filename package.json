@@ -1,0 +1,14 @@
+{
+  "name": "test-mockfs",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Joe Hildebrand <joe-github@cursive.net>",
+  "license": "MIT",
+  "dependencies": {
+    "mock-fs": "5.2.0"
+  }
+}
